@@ -30,3 +30,5 @@ Git - a version control system
 4. conect it with github account
 5. push new repo
 6. make changes and push a new commit
+
+ - fun
