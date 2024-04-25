@@ -28,7 +28,7 @@ Git - a version control system
 2. markdown file "text"
 3. make folder a git repository
 4. conect it with github account
-5. push new repo
+5. push new repo (repository)
 6. make changes and push a new commit
 
  - fun
