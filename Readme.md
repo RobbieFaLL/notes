@@ -32,3 +32,5 @@ Git - a version control system
 6. make changes and push a new commit
 
  - fun
+
+ 7. new branch to git
