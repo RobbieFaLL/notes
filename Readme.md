@@ -2,7 +2,7 @@
 Git - a version control system
 - distrubuted version control / de-centeralised
 - coordinates work between multiple developers
-- documents who ade changes and when
+- documents who add changes and when
 - rollback changes at any time
 - local and remote repos
 
