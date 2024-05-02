@@ -210,6 +210,7 @@ To design URLs for an app, you create a Python module called a URLconf. A table 
 Here’s what a URLconf might look like for the Reporter/Article example above:
 
 mysite/news/urls.py¶
+#
 from django.urls import path
 
 from . import views
@@ -219,6 +220,7 @@ urlpatterns = [
     path("articles/<int:year>/<int:month>/", views.month_archive),
     path("articles/<int:year>/<int:month>/<int:pk>/", views.article_detail),
 ]
+#
 The code above maps URL paths to Python callback functions (“views”). The path strings use parameter tags to “capture” values from the URLs. When a user requests a page, Django runs through each path, in order, and stops at the first one that matches the requested URL. (If none of them matches, Django calls a special-case 404 view.) This is blazingly fast, because the paths are compiled into regular expressions at load time.
 
 Once one of the URL patterns matches, Django calls the given view, which is a Python function. Each view gets passed a request object – which contains request metadata – and the values captured in the pattern.
@@ -287,3 +289,6 @@ mysite/templates/base.html¶
 Simplistically, it defines the look-and-feel of the site (with the site’s logo), and provides “holes” for child templates to fill. This means that a site redesign can be done by changing a single file – the base template.
 
 It also lets you create multiple versions of a site, with different base templates, while reusing child templates. Django’s creators have used this technique to create strikingly different mobile versions of sites by only creating a new base template.
+
+#django overview:
+https://docs.djangoproject.com/en/5.0/intro/overview/
