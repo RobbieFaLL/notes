@@ -2,7 +2,7 @@
 Git - a version control system
 - distrubuted version control / de-centeralised
 - coordinates work between multiple developers
-- documents who ade changes and when
+- documents who add changes and when
 - rollback changes at any time
 - local and remote repos
 
@@ -46,5 +46,9 @@ https://www.sourcetreeapp.com
 
 download it and do some stuff
 
+<<<<<<< HEAD
 #
 
+=======
+boyzzzz
+>>>>>>> aa6720787f2d6c8f70599b4c051d0cd49cf94056
