@@ -1,4 +1,5 @@
 from pathlib import Path
+import os
 
 #base directory for project
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -79,7 +80,17 @@ LANGUAGE_CODE = 'en-us'
 TIME_ZONE = 'UTC'
 USE_I18N = True
 USE_TZ = True
-#static assets - name space
-STATIC_URL = 'static/'
+
+# Static assets -  JS, CSS, site images 
+STATIC_ROOT= os.path.join(BASE_DIR, 'static')
+STATIC_URL = '/static/'
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'fallcircle/static')
+]
+
+# Media Folder Settings - admin upload
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/media/'
+
 #primary key generator
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'

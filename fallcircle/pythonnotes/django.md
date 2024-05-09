@@ -9,3 +9,45 @@
 9. Create a new project as `django-admin startproject project-name .` - the period confirms you want it in the same folder
 10. Run the server as `python [manage.py](http://manage.py/) runserver` - visible at localhost:8000
 11. `CTRL + C` will stop the server
+
+# data
+
+- date - date/time field
+- email - email field
+- tittle - text feild
+- c-ontent - char field
+- image - image feild
+
+#
+- Blog - cotet,images,author,date
+
+# bikes:
+## wheels:
+- weight
+### hubs:
+- axle size
+- weight
+- disc brake disc mounting 6 bolt / centerlock?
+- shimnao hyperglide, sram , campagolo freehub
+### spokes:
+- spoke count
+- spoke material
+- spoke weight
+### rims:
+- rim depth
+- rim brake rim?
+## Tyres:
+- brand
+- width
+- weight
+## frame
+- brand
+- model name
+- weight
+- size
+- axle size
+
+## bike computer
+- size
+- weight
+-brand
