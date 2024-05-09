@@ -17,7 +17,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     "pages",
-    "blog"
+    "blog",
+    "bikes",
+    "contactus"
 ]
 #middle applied to all requests and responses
 MIDDLEWARE = [
