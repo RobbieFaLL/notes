@@ -1,4 +1,4 @@
-#django notes
+# django notes
 my files:
 - the outer mysite / root directory is a container for your project (namr doesn't matter)
 - manage.py acmmand-line utility that lets you iteract with your djago project in various ways
@@ -7,11 +7,11 @@ my files:
 - mysite/urls.py the URL (uniformresource locator) declarations for this django project, a table of contents foryour site
 
 
-#link for docs:
+# link for docs:
 https://docs.djangoproject.com/en/5.0/intro/tutorial01/
 
 
-#additinal:
+# additinal:
  python manage.py startapp polls
 That’ll create a directory polls, which is laid out like this:
 
