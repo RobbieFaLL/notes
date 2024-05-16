@@ -26,4 +26,9 @@ python manage.py makemigrations bikes contactus blogs
 python manage.py migrate      
 python manage.py showmigrations  (check migrations ahve been made)
 python manage.py createsuperuser (admin user creation)
+<<<<<<< HEAD
 python manage.py runserver     
+=======
+python manage.py runserver    
+boosh  
+>>>>>>> c29ebc4f940074de753c95a9b85e68e8173b72b9
