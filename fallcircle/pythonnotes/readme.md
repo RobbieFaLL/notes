@@ -13,3 +13,17 @@
 ```bash
 python manage.py dumpdata bikes blog contactus > ./data/fixtures.json 
 ```
+
+
+## clean install
+pull repository
+python3 -m venv venv 
+pip3 install -U virtualenv        
+activate venv (virtual enviroment)
+pip install -r requirements.txt  
+python manage.py loaddata ./data/aifixtures.json (location of the json file)
+python manage.py makemigrations bikes contactus blogs
+python manage.py migrate      
+python manage.py showmigrations  (check migrations ahve been made)
+python manage.py createsuperuser (admin user creation)
+python manage.py runserver     
