@@ -1,5 +1,5 @@
 from django.contrib import admin
-from . models import Bikes
+from . models import Bike
 from .models import Wheel
 from .models import Tyre
 from .models import Groupset
@@ -8,7 +8,7 @@ from .models import Chain
 class BikesAdmin(admin.ModelAdmin):
     pass
 
-admin.site.register(Bikes, BikesAdmin)
+admin.site.register(Bike, BikesAdmin)
 
 class WheelAdmin(admin.ModelAdmin):
     pass

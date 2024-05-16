@@ -1,0 +1,187 @@
+[
+    {
+        "model": "bikes.wheel",
+        "pk": 1,
+        "fields": {
+            "images": "media/wheel.png",
+            "brand_name": "Hunt Bike Wheels",
+            "model_name": "limitless 60",
+            "description": "fast wheels made of carbon",
+            "internal_rim_width": "21",
+            "external_rim_width": "31",
+            "spokecount": 22,
+            "spoke_material": "stainless steel",
+            "rimdepth": "60mm",
+            "axlesizeF": "12x100",
+            "axlesizeR": "12x142",
+            "weight_grams": 1669,
+            "brake_type": "disc"
+        }
+    },
+    {
+        "model": "bikes.wheel",
+        "pk": 2,
+        "fields": {
+            "images": "media/wheel_TEWlS8x.png",
+            "brand_name": "Hunt Bike Wheels",
+            "model_name": "limitless 80",
+            "description": "very areo wheels with a low weight to areodynamics ratio",
+            "internal_rim_width": "21",
+            "external_rim_width": "24",
+            "spokecount": 24,
+            "spoke_material": "carbon",
+            "rimdepth": "80",
+            "axlesizeF": "12x100",
+            "axlesizeR": "12x142",
+            "weight_grams": 1700,
+            "brake_type": "disc"
+        }
+    },
+    {
+        "model": "bikes.wheel",
+        "pk": 3,
+        "fields": {
+            "images": "media/terra_c_wheels.png",
+            "brand_name": "Fulcrum",
+            "model_name": "Rapid Red 900 DB",
+            "description": "OEM disc wheelset designed for road,gravel and cyclocross made with alumnium",
+            "internal_rim_width": "22",
+            "external_rim_width": "27",
+            "spokecount": 28,
+            "spoke_material": "stainless steel",
+            "rimdepth": "24",
+            "axlesizeF": "12x100",
+            "axlesizeR": "12x142",
+            "weight_grams": 1950,
+            "brake_type": "disc"
+        }
+    },
+    {
+        "model": "bikes.tyre",
+        "pk": 1,
+        "fields": {
+            "images": "media/tyre_pic.jpeg",
+            "description": "continental gp 5000 with the finest rubber",
+            "width": "28mm",
+            "colour": "black",
+            "brand_name": "Continental",
+            "model_name": "Grand Prix 5000",
+            "weight_grams": 300
+        }
+    },
+    {
+        "model": "bikes.tyre",
+        "pk": 2,
+        "fields": {
+            "images": "media/tyre_pic_bi7PUU8.jpeg",
+            "description": "top speed tyres",
+            "width": "27mm",
+            "colour": "black",
+            "brand_name": "continental",
+            "model_name": "GP 5000 TLR",
+            "weight_grams": 256
+        }
+    },
+    {
+        "model": "bikes.tyre",
+        "pk": 3,
+        "fields": {
+            "images": "media/terra_tyre.webp",
+            "description": "gravel tyre designed for hardpack terrain",
+            "width": "40mm",
+            "colour": "tan",
+            "brand_name": "Continental",
+            "model_name": "terra trail",
+            "weight_grams": 350
+        }
+    },
+    {
+        "model": "bikes.chain",
+        "pk": 1,
+        "fields": {
+            "images": "media/chainpic.jpeg",
+            "model_name": "Kmc x10 ten speed chain",
+            "links_count": 118,
+            "brand_name": "KMC",
+            "colour": "silver / black"
+        }
+    },
+    {
+        "model": "bikes.groupset",
+        "pk": 1,
+        "fields": {
+            "images": "media/groupsetpic.jpeg",
+            "model_name": "GRX 400",
+            "rotor_size": "160",
+            "crankset": "non-standard",
+            "other": "46/30",
+            "chain": 1
+        }
+    },
+    {
+        "model": "bikes.bikes",
+        "pk": 1,
+        "fields": {
+            "images": "media/bike_pic.jpeg",
+            "title": "areo bike",
+            "description": "areo bike with fancy areo stuff",
+            "brand": "Ribble",
+            "modelname": "areo",
+            "specs": "wheels\r\ntures\r\nframe\r\ngroupset",
+            "wheels": 1,
+            "Tyre": null,
+            "Groupset": null
+        }
+    },
+    {
+        "model": "bikes.bikes",
+        "pk": 2,
+        "fields": {
+            "images": "media/bike_pic_XiyLin6.jpeg",
+            "title": "super areo",
+            "description": "bike with areo tube shape made of carbon",
+            "brand": "ribble",
+            "modelname": "spppeeeddd",
+            "specs": "wheels\r\ngroupset\r\nmoere fun",
+            "wheels": null,
+            "Tyre": null,
+            "Groupset": null
+        }
+    },
+    {
+        "model": "bikes.bikes",
+        "pk": 3,
+        "fields": {
+            "images": "media/terra_c.png",
+            "title": "Orro Terra C GRX 400",
+            "description": "gravel bike with thru axle disc brakes with 2x10 gearing",
+            "brand": "Orro",
+            "modelname": "Terra C GRX 400",
+            "specs": "400mm Deda drop flared handlebars\r\nOrro allow setback seatpost\r\nOrro Boastal saddle\r\nBB86 bottom bracket \r\nDeda zero 1 stem",
+            "wheels": 3,
+            "tyre": 3,
+            "groupset": 1
+        }
+    },
+    {
+        "model": "blog.blog",
+        "pk": 1,
+        "fields": {
+            "images": "media/profile.jpeg",
+            "content": "gotta love this pic",
+            "title": "my profile",
+            "date": "2024-05-09T14:56:48Z",
+            "author": "Robbie"
+        }
+    },
+    {
+        "model": "contactus.contactus",
+        "pk": 1,
+        "fields": {
+            "name": "Robert",
+            "subject": "Site Contact",
+            "email": "robertfall@bt.com",
+            "message": "i need some help"
+        }
+    }
+]

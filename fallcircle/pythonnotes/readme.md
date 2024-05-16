@@ -9,3 +9,7 @@
 9. Create a new project as `django-admin startproject project-name .` - the period confirms you want it in the same folder
 10. Run the server as `python [manage.py](http://manage.py/) runserver` - visible at localhost:8000
 11. `CTRL + C` will stop the server
+
+```bash
+python manage.py dumpdata bikes blog contactus > ./data/fixtures.json 
+```

@@ -21,7 +21,7 @@ class Wheel(models.Model):
     internal_rim_width = models.CharField(max_length=10)
     external_rim_width = models.CharField(max_length=10)
     spokecount = models.IntegerField()
-    spoke_materaial = models.CharField(max_length=20)
+    spoke_material = models.CharField(max_length=20)
     rimdepth = models.CharField(max_length=10)
     axlesizeF = models.CharField(max_length=10)
     axlesizeR = models.CharField(max_length=10)
@@ -60,16 +60,16 @@ class Groupset(models.Model):
     images = models.ImageField(upload_to='media')
     model_name = models.CharField(max_length=255)
     rotor_size = models.CharField(max_length= 255 , choices=ROTOR_CHOICES)
-    Crankset = models.CharField(max_length=255 , choices=CRANKSET_CHOICES, default= "not set")
+    crankset = models.CharField(max_length=255 , choices=CRANKSET_CHOICES, default= "not set")
     other = models.CharField(max_length=255, default= "N/A")
-    Chain = models.ForeignKey(Chain, on_delete=models.SET_NULL,null=True)
+    chain = models.ForeignKey(Chain, on_delete=models.SET_NULL,null=True)
 
     
     def __str__(self):
         return self.model_name
 
 
-class Bikes(models.Model):
+class Bike(models.Model):
     class Meta:
         verbose_name_plural = "Bikes"
 
@@ -80,8 +80,8 @@ class Bikes(models.Model):
     modelname = models.CharField(max_length=255)
     specs = models.TextField(max_length=255)
     wheels = models.ForeignKey(Wheel, on_delete=models.SET_NULL,null=True)
-    Tyre = models.ForeignKey(Tyre, on_delete=models.SET_NULL,null=True)
-    Groupset = models.ForeignKey(Groupset, on_delete=models.SET_NULL,null=True)
+    tyre = models.ForeignKey(Tyre, on_delete=models.SET_NULL,null=True)
+    groupset = models.ForeignKey(Groupset, on_delete=models.SET_NULL,null=True)
 
     def __str__(self):
         return self.title
