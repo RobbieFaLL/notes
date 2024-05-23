@@ -77,11 +77,11 @@ class Bike(models.Model):
     title = models.CharField(max_length=255)
     description= models.TextField(max_length=10000)
     brand = models.CharField(max_length=255)
-    modelname = models.CharField(max_length=255)
+    model_name = models.CharField(max_length=255)
     specs = models.TextField(max_length=255)
-    wheels = models.ForeignKey(Wheel, on_delete=models.SET_NULL,null=True)
-    tyre = models.ForeignKey(Tyre, on_delete=models.SET_NULL,null=True)
-    groupset = models.ForeignKey(Groupset, on_delete=models.SET_NULL,null=True)
+    wheels = models.ForeignKey(Wheel, on_delete=models.SET_NULL,null=True, related_name='wheels')
+    tyre = models.ForeignKey(Tyre, on_delete=models.SET_NULL,null=True, related_name= 'tyre')                   #related name - reverse lookup for forign key
+    groupset = models.ForeignKey(Groupset, on_delete=models.SET_NULL,null=True, related_name= 'groupset')
 
     def __str__(self):
         return self.title
