@@ -2,7 +2,7 @@
 Git - a version control system
 - distrubuted version control / de-centeralised
 - coordinates work between multiple developers
-- documents who ade changes and when
+- documents who add changes and when
 - rollback changes at any time
 - local and remote repos
 
@@ -28,7 +28,27 @@ Git - a version control system
 2. markdown file "text"
 3. make folder a git repository
 4. conect it with github account
-5. push new repo
+5. push new repo (repository)
 6. make changes and push a new commit
 
  - fun
+
+ 7. new branch to git
+
+
+
+ download when home
+
+Sourcetree | Free Git GUI for Mac and Windows
+
+SourceTree
+https://www.sourcetreeapp.com
+
+download it and do some stuff
+
+<<<<<<< HEAD
+#
+
+=======
+boyzzzz
+>>>>>>> aa6720787f2d6c8f70599b4c051d0cd49cf94056

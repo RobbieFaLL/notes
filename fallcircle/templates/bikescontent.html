@@ -1,0 +1,8 @@
+{% extends "base.html" %} 
+{% block content %}
+<h2>bike name: {{ bike.model_name }}</h2>
+<p>Tyre width: {{ bike.tyre.width }}</p>
+<p>Wheel model name: {{ bike.wheels.model_name }}</p>
+<p>groupset model: {{ bike.groupset.model_name }}</p>
+<div><p>Bikes content</p></div>
+{% endblock content %}

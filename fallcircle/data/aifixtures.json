@@ -1,0 +1,359 @@
+[
+    {
+        "model": "bikes.wheel",
+        "pk": 1,
+        "fields": {
+            "images": "media/wheel1.png",
+            "brand_name": "Hunt Bike Wheels",
+            "model_name": "Limitless 60",
+            "description": "Fast wheels made of carbon",
+            "internal_rim_width": "21",
+            "external_rim_width": "31",
+            "spokecount": 22,
+            "spoke_material": "stainless steel",
+            "rimdepth": "60mm",
+            "axlesizeF": "12x100",
+            "axlesizeR": "12x142",
+            "weight_grams": 1669,
+            "brake_type": "disc"
+        }
+    },
+    {
+        "model": "bikes.wheel",
+        "pk": 2,
+        "fields": {
+            "images": "media/wheel2.png",
+            "brand_name": "Hunt Bike Wheels",
+            "model_name": "Limitless 80",
+            "description": "Very aero wheels with a low weight to aerodynamics ratio",
+            "internal_rim_width": "21",
+            "external_rim_width": "24",
+            "spokecount": 24,
+            "spoke_material": "carbon",
+            "rimdepth": "80mm",
+            "axlesizeF": "12x100",
+            "axlesizeR": "12x142",
+            "weight_grams": 1700,
+            "brake_type": "disc"
+        }
+    },
+    {
+        "model": "bikes.wheel",
+        "pk": 3,
+        "fields": {
+            "images": "media/wheel3.png",
+            "brand_name": "Fulcrum",
+            "model_name": "Rapid Red 900 DB",
+            "description": "OEM disc wheelset designed for road, gravel, and cyclocross made with aluminum",
+            "internal_rim_width": "22",
+            "external_rim_width": "27",
+            "spokecount": 28,
+            "spoke_material": "stainless steel",
+            "rimdepth": "24mm",
+            "axlesizeF": "12x100",
+            "axlesizeR": "12x142",
+            "weight_grams": 1950,
+            "brake_type": "disc"
+        }
+    },
+    {
+        "model": "bikes.wheel",
+        "pk": 4,
+        "fields": {
+            "images": "media/wheel4.png",
+            "brand_name": "Zipp",
+            "model_name": "303 Firecrest",
+            "description": "High performance wheels for all terrains",
+            "internal_rim_width": "23",
+            "external_rim_width": "29",
+            "spokecount": 24,
+            "spoke_material": "aluminum",
+            "rimdepth": "45mm",
+            "axlesizeF": "12x100",
+            "axlesizeR": "12x142",
+            "weight_grams": 1500,
+            "brake_type": "disc"
+        }
+    },
+    {
+        "model": "bikes.wheel",
+        "pk": 5,
+        "fields": {
+            "images": "media/wheel5.png",
+            "brand_name": "Enve",
+            "model_name": "SES 3.4",
+            "description": "Lightweight carbon wheels for versatile riding",
+            "internal_rim_width": "21",
+            "external_rim_width": "29",
+            "spokecount": 24,
+            "spoke_material": "carbon",
+            "rimdepth": "40mm",
+            "axlesizeF": "12x100",
+            "axlesizeR": "12x142",
+            "weight_grams": 1400,
+            "brake_type": "disc"
+        }
+    },
+    {
+        "model": "bikes.tyre",
+        "pk": 1,
+        "fields": {
+            "images": "media/tyre1.jpeg",
+            "description": "Continental GP 5000 with the finest rubber",
+            "width": "28mm",
+            "colour": "black",
+            "brand_name": "Continental",
+            "model_name": "Grand Prix 5000",
+            "weight_grams": 300
+        }
+    },
+    {
+        "model": "bikes.tyre",
+        "pk": 2,
+        "fields": {
+            "images": "media/tyre2.jpeg",
+            "description": "Top speed tyres",
+            "width": "27mm",
+            "colour": "black",
+            "brand_name": "Continental",
+            "model_name": "GP 5000 TLR",
+            "weight_grams": 256
+        }
+    },
+    {
+        "model": "bikes.tyre",
+        "pk": 3,
+        "fields": {
+            "images": "media/tyre3.webp",
+            "description": "Gravel tyre designed for hardpack terrain",
+            "width": "40mm",
+            "colour": "tan",
+            "brand_name": "Continental",
+            "model_name": "Terra Trail",
+            "weight_grams": 350
+        }
+    },
+    {
+        "model": "bikes.tyre",
+        "pk": 4,
+        "fields": {
+            "images": "media/tyre4.jpeg",
+            "description": "Road tyre for all-weather performance",
+            "width": "25mm",
+            "colour": "black",
+            "brand_name": "Schwalbe",
+            "model_name": "One",
+            "weight_grams": 200
+        }
+    },
+    {
+        "model": "bikes.tyre",
+        "pk": 5,
+        "fields": {
+            "images": "media/tyre5.jpeg",
+            "description": "All-terrain tyre with superior grip",
+            "width": "35mm",
+            "colour": "black",
+            "brand_name": "Michelin",
+            "model_name": "Power Gravel",
+            "weight_grams": 400
+        }
+    },
+    {
+        "model": "bikes.groupset",
+        "pk": 1,
+        "fields": {
+            "images": "media/groupset1.jpeg",
+            "model_name": "Shimano GRX 400",
+            "rotor_size": "160mm",
+            "crankset": "non-standard",
+            "other": "46/30",
+            "chain": 1
+        }
+    },
+    {
+        "model": "bikes.groupset",
+        "pk": 2,
+        "fields": {
+            "images": "media/groupset2.jpeg",
+            "model_name": "SRAM Red",
+            "rotor_size": "140mm",
+            "crankset": "standard",
+            "other": "50/34",
+            "chain": 2
+        }
+    },
+    {
+        "model": "bikes.groupset",
+        "pk": 3,
+        "fields": {
+            "images": "media/groupset3.jpeg",
+            "model_name": "Campagnolo Record",
+            "rotor_size": "160mm",
+            "crankset": "compact",
+            "other": "52/36",
+            "chain": 3
+        }
+    },
+    {
+        "model": "bikes.chain",
+        "pk": 1,
+        "fields": {
+            "images": "media/chain1.jpeg",
+            "model_name": "KMC X10 Ten Speed Chain",
+            "links_count": 118,
+            "brand_name": "KMC",
+            "colour": "silver / black"
+        }
+    },
+    {
+        "model": "bikes.chain",
+        "pk": 2,
+        "fields": {
+            "images": "media/chain2.jpeg",
+            "model_name": "Shimano Ultegra",
+            "links_count": 116,
+            "brand_name": "Shimano",
+            "colour": "silver"
+        }
+    },
+    {
+        "model": "bikes.chain",
+        "pk": 3,
+        "fields": {
+            "images": "media/chain3.jpeg",
+            "model_name": "SRAM Eagle",
+            "links_count": 120,
+            "brand_name": "SRAM",
+            "colour": "gold"
+        }
+    },
+    {
+        "model": "bikes.bike",
+        "pk": 1,
+        "fields": {
+            "images": "media/bike1.jpeg",
+            "title": "Aero Bike",
+            "description": "Aero bike with fancy aero stuff",
+            "brand": "Ribble",
+            "modelname": "Aero",
+            "specs": "wheels\n tyres\n frame\n groupset",
+            "wheels": 1,
+            "tyre": 1,
+            "groupset": 1
+        }
+    },
+    {
+        "model": "bikes.bike",
+        "pk": 2,
+        "fields": {
+            "images": "media/bike2.jpeg",
+            "title": "Super Aero",
+            "description": "Bike with aero tube shape made of carbon",
+            "brand": "Ribble",
+            "modelname": "Speed",
+            "specs": "wheels\n groupset\n more fun",
+            "wheels": 2,
+            "tyre": 2,
+            "groupset": 2
+        }
+    },
+    {
+        "model": "bikes.bike",
+        "pk": 3,
+        "fields": {
+            "images": "media/bike3.png",
+            "title": "Orro Terra C GRX 400",
+            "description": "Gravel bike with thru axle disc brakes with 2x10 gearing",
+            "brand": "Orro",
+            "modelname": "Terra C GRX 400",
+            "specs": "400mm Deda drop flared handlebars\nOrro alloy setback seatpost\nOrro Boastal saddle\nBB86 bottom bracket\nDeda zero 1 stem",
+            "wheels": 3,
+            "tyre": 3,
+            "groupset": 1
+        }
+    },
+    {
+        "model": "bikes.bike",
+        "pk": 4,
+        "fields": {
+            "images": "media/bike4.jpeg",
+            "title": "Endurance Bike",
+            "description": "Comfortable bike for long rides",
+            "brand": "Cannondale",
+            "modelname": "Synapse",
+            "specs": "wheels\n tyres\n groupset\n frame",
+            "wheels": 4,
+            "tyre": 4,
+            "groupset": 3
+        }
+    },
+    {
+        "model": "bikes.bike",
+        "pk": 5,
+        "fields": {
+            "images": "media/bike5.jpeg",
+            "title": "All-Mountain Bike",
+            "description": "Durable bike for all mountain terrains",
+            "brand": "Specialized",
+            "modelname": "Stumpjumper",
+            "specs": "wheels\n tyres\n suspension\n groupset",
+            "wheels": 5,
+            "tyre": 5,
+            "groupset": 2
+        }
+    },
+    {
+        "model": "contactus.contactus",
+        "pk": 1,
+        "fields": {
+            "name": "Robert",
+            "subject": "Site Contact",
+            "email": "robertfall@bt.com",
+            "message": "I need some help"
+        }
+    },
+    {
+        "model": "contactus.contactus",
+        "pk": 2,
+        "fields": {
+            "name": "Alice",
+            "subject": "Support Request",
+            "email": "alice@support.com",
+            "message": "Please assist with the bike selection"
+        }
+    },
+    {
+        "model": "blog.blog",
+        "pk": 1,
+        "fields": {
+            "images": "media/profile1.jpeg",
+            "content": "Gotta love this pic",
+            "title": "My Profile",
+            "date": "2024-05-09T14:56:48Z",
+            "author": "Robbie"
+        }
+    },
+    {
+        "model": "blog.blog",
+        "pk": 2,
+        "fields": {
+            "images": "media/profile2.jpeg",
+            "content": "Exploring new trails",
+            "title": "Trail Adventure",
+            "date": "2024-04-01T12:34:56Z",
+            "author": "Alice"
+        }
+    },
+    {
+        "model": "blog.blog",
+        "pk": 3,
+        "fields": {
+            "images": "media/profile3.jpeg",
+            "content": "New bike day!",
+            "title": "Bike Review",
+            "date": "2024-03-15T09:12:34Z",
+            "author": "Bob"
+        }
+    }
+]

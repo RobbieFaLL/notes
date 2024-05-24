@@ -1,0 +1,12 @@
+{% extends "base.html" %} 
+{% block content %}
+<h1>bike shiz</h1>
+{% if bikes %}
+{% for bike in bikes %}
+<div><h2>{{ bike.model_name }}</h2></div>
+<a href="{% url 'bikes_content' bike.id %}">read more</a>
+{% endfor %}
+{% else %}
+<div>no bike stuff found</div>
+{% endif %}
+{% endblock content %}
