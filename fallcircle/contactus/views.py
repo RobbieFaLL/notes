@@ -1,6 +1,10 @@
 from django.shortcuts import render
-
+from .forms import ContactUs
 # Create your views here.
 
+
+
 def contactus(request):
-    return render(request, 'contactus.html')
+    form = ContactUs()
+    context = {'form' : form}
+    return render(request, 'contactus.html', context)
