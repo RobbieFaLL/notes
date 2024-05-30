@@ -3,11 +3,16 @@ from pages.models import Homepage, Aboutuspage
 # Controller - also known as view
 
 def index(request):
-    title = Homepage.objects.all
-    data = Homepage.objects.all
-    return render(request, 'index.html')
+    page = get_object_or_404(Homepage)
+    context = {
+        'page': page
+    }
+    return render(request, 'index.html', context)
 
 def about(request):
-    title = Aboutuspage.objects.all
-    text = Aboutuspage.objects.all
-    return render(request, 'about.html')
+    page = get_object_or_404(Aboutuspage)
+    context = {
+        'page': page
+    }
+
+    return render(request, 'about.html', context)
