@@ -33,15 +33,6 @@ h3 {
   font-family: "lemon", calibri;
 }
 
-h1 {
-  margin-bottom: 30px;
-  font-family: "Bebas Neue", calibri;
-  font-size: x-large;
-}
-h1 a {
-  color: red;
-}
-
 a {
   text-decoration: none;
   color: #ecf0f1;
@@ -157,4 +148,48 @@ input[type=submit]:hover {
 
 .errorlist {
   color: red;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  color: #326dee;
+  margin-bottom: 0.75rem;
+  margin-bottom: 30px;
+  font-family: "Bebas Neue", calibri;
+  font-size: x-large;
+}
+h1 a {
+  color: rgb(0, 234, 255);
+}
+
+button {
+  color: white;
+  border: 0;
+  background: #326dee;
+  border-radius: 20px;
+  padding: 0.75rem;
+  margin: 0.75rem;
+}
+
+.error {
+  color: #d32752;
+  border-color: #d32752;
+  border-style: solid;
+  margin: 0.75rem;
+  padding: 0.75rem;
+  border-radius: 20px;
+  border-width: 1px;
+}
+
+.notfication {
+  color: #1ac888;
+  border-color: #1ac888;
+  border-style: solid;
+  margin: 0.75rem;
+  padding: 0.75rem;
+  border-radius: 20px;
+  border-width: 1px;
 }/*# sourceMappingURL=styles.css.map */

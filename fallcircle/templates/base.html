@@ -10,17 +10,22 @@
     <link rel="stylesheet" href="{% static 'css/styles.css' %}">
 </head>
 <body>
+    
     {% include "partials/navbar.html" %}
     <main>
+    
     {% block content %} {% endblock content %}
     </main>
     {% if messages %}
     <ul class="messages">
         {% for message in messages %}
-        <li>{{ message }}</li>
+        <li>{{ message }}</li>x
         {% endfor %}
     </ul>
     {% endif %}
+    <p class="notfication">New blog post added view it now</p>
+    <p class="error">this is an error</p>
+    <button>click me</button>
 </body>
 <script src="{% static 'js/scripts.js' %} "></script>
 </html>

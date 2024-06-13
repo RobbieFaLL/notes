@@ -1,3 +1,10 @@
+
+
+@import 'variables';
+
+
+
+
 p.footer {
     font-size: 12px;
 }
@@ -32,15 +39,7 @@ h3 {
 }
 
 
-h1 {
-    a {
-        color: red;
-    }
-    margin-bottom: 30px;
-    font-family: 'Bebas Neue',calibri;
-    font-size: x-large;
-    
-}
+
 
 a {
     text-decoration: none;
@@ -152,4 +151,47 @@ input[type=submit]:hover {
 .errorlist {
     color: red;
 
+}
+
+img {
+    max-width: 100%;
+}
+
+/
+h1 {
+    a {
+        color: rgb(0, 234, 255);
+    }
+    color: $primary;
+    margin-bottom: $base-margin;
+    margin-bottom: 30px;
+    font-family: 'Bebas Neue',calibri;
+    font-size: x-large;
+}
+button {
+    color: white;
+    border: 0;
+    background: $primary;
+    border-radius: $base-border-radius;
+    padding: $base-padding;
+    margin: $base-margin;
+
+}
+.error {
+    color: $error;
+    border-color: $error;
+    border-style: solid;
+    margin: $base-margin;
+    padding: $base-padding;
+    border-radius: $base-border-radius;
+    border-width: $base-border-thickness;
+}
+.notfication {
+    color: $secondary;
+    border-color: $secondary;
+    border-style: solid;
+    margin: $base-margin;
+    padding: $base-padding;
+    border-radius: $base-border-radius;
+    border-width: $base-border-thickness;
 }
