@@ -9,8 +9,11 @@ p.footer {
   box-sizing: border-box;
 }
 
+p.footer {
+  font-size: 12px;
+}
+
 body {
-  background-color: #2c3e50;
   color: #ecf0f1;
   font-family: calibri;
   padding: 5px;
@@ -31,11 +34,6 @@ h2 {
 h3 {
   margin-top: 25px;
   font-family: "lemon", calibri;
-}
-
-a {
-  text-decoration: none;
-  color: #ecf0f1;
 }
 
 .navbar {
@@ -192,4 +190,22 @@ button {
   padding: 0.75rem;
   border-radius: 20px;
   border-width: 1px;
+}
+
+.card {
+  display: block;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  box-shadow: 1px 3px 5px rgba(189, 21, 21, 0.1);
+}
+.card .card-title {
+  font-size: 1rem;
+  padding-bottom: 0.75rem;
+  font-weight: bold;
+}
+.card .card-body {
+  font-size: 1rem;
+}
+.card .card-body a {
+  text-decoration: underline;
 }/*# sourceMappingURL=styles.css.map */

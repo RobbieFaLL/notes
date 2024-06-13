@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "gulp": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.77.5"
+  },
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "sass and gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": " npm install gulp gulp-sass sass --save.dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\\"
+  },
+  "author": "Robert Fall",
+  "license": "ISC"
+}

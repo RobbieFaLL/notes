@@ -1,12 +1,17 @@
-
+p.footer {
+    font-size: 12px;
+}
 * {
     border: 0;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+p.footer {
+    font-size: 12px;
+}
 body {
-    background-color: #2c3e50;
+    
     color: #ecf0f1;
     font-family: calibri;
     padding: 5px;
@@ -28,15 +33,6 @@ h3 {
     font-family: 'lemon', calibri;
 
 }
-
-
-
-
-a {
-    text-decoration: none;
-    color: #ecf0f1;
-}
-
 
 .navbar {
     background-color: #333;
@@ -122,7 +118,7 @@ textarea, select {
 }
 textarea:hover {
     background-color: rgb(47, 37, 37);
-  }
+}
 
 input[type=submit] {
   width: 100%;
@@ -147,8 +143,28 @@ input[type=submit]:hover {
 img {
     max-width: 100%;
 }
+// theme colours
 
-/
+$primary: #326dee;
+$secondary: #1ac888;
+$error: #d32752;
+$info: #f6c31c;
+
+//spacing
+$base-padding: 0.75rem;
+$base-margin: 0.75rem;
+
+//borders
+$base-border-thickness: 1px;
+$base-border-radius: 20px;
+
+// box-shaddow
+$base-box-shaddow: 1px 3px 5px rgba(189, 21, 21, 0.1);
+
+// font sizes
+$base-font-size: 1rem;
+
+
 h1 {
     a {
         color: rgb(0, 234, 255);
@@ -186,3 +202,25 @@ button {
     border-radius: $base-border-radius;
     border-width: $base-border-thickness;
 }
+
+.card {
+    display: block;
+    padding: $base-padding;
+    border: $base-border-thickness solid #ddd;
+    box-shadow: $base-box-shaddow;
+
+    .card-title {
+        font-size: $base-font-size;
+        padding-bottom: $base-padding;
+        font-weight: bold;
+    }
+    .card-body {
+        font-size: $base-font-size;
+        a{
+            text-decoration: underline;
+
+        }
+    }
+
+}
+
