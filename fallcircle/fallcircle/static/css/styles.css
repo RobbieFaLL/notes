@@ -663,11 +663,6 @@ h3 {
           text-decoration: dotted;
 }
 
-ul {
-  margin-top: 60px;
-  min-height: 100vh;
-}
-
 .navbar a:hover {
   background: #ddd;
   color: black;

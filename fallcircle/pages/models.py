@@ -5,7 +5,7 @@ from ckeditor.fields import RichTextField
 
 class Homepage(models.Model):
     title = models.CharField(max_length = 255)
-    data = models.TextField()
+    data = RichTextField()
 
     def __str__(self):
         return self.title
