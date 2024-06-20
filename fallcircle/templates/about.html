@@ -2,7 +2,26 @@
 
 {% block content %}
 
-<h1>{{ page.title }}</h1>
-<p>{{ page.text }}</p>
+<body>
 
+    <card>
+        <section class="about-us">
+            <h2>{{ content.title | safe }}</h2>
+            {{ content.welcome_message | safe }}
+            <h3>Who We Are</h3>
+            {{ content.who_we_are | safe }}
+            <h3>What We Do</h3>
+            {{ content.what_we_do | safe }}
+            <h3>Why Choose Us?</h3>
+            {{ content.why_choose_us | safe }}
+            <p>Thank you for visiting RobbieFall Cycles. We invite you to explore our site, join our community, and share in our love for cycling. Together, let’s ride towards new adventures and achievements!</p>
+            <br>
+            <p>Happy cycling!</p>
+            <br>
+            <p>Robbie Fall & The RobbieFall Cycles Team</p>
+            <br>
+        </section>
+    </card>
+
+</body>
 {% endblock content %}

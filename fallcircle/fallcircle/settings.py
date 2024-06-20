@@ -20,7 +20,8 @@ INSTALLED_APPS = [
     "pages",
     "blog",
     "bikes",
-    "contactus"
+    "contactus",
+    "ckeditor"
 ]
 #middle applied to all requests and responses
 MIDDLEWARE = [
