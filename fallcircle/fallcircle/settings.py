@@ -21,7 +21,9 @@ INSTALLED_APPS = [
     "blog",
     "bikes",
     "contactus",
-    "ckeditor"
+    "ckeditor",
+    "rest_framework"
+
 ]
 #middle applied to all requests and responses
 MIDDLEWARE = [
