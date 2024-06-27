@@ -6,6 +6,7 @@ ROTOR_CHOICES = [
     ("160/140", "160mm / 140mm"),
     ("180", "180mm"),
     ("200", "200mm"),
+    ("Rim brake","Rim brake")
 ]
 CRANKSET_CHOICES = [
     ("50/34", "compact"),
